@@ -2,6 +2,31 @@ body {
     margin: 0;
     background-color: black;
 }
+
+/* NAV */
+nav h1, nav .prev, nav .next {
+    display: inline-block;
+    color: white;
+}
+nav h1 {
+    text-align: center;
+    width: calc(100% - 112px);
+    padding: 0 56px;
+}
+nav .prev, nav .next {
+    font-size: 30px;
+    padding: 16px 20px;
+}
+nav .prev {
+    left:0;
+    position: absolute;
+}
+nav .next {
+    right:0;
+    position: absolute;
+}
+
+/* SLIDE */
 .slide-container {
     width: 100%;
     height: auto;
@@ -12,6 +37,7 @@ img {
 .text-container {
     color: white;
     text-align: center;
+    font-size: 20px;
 }
 .slide-number {
     display: inline-block;
@@ -23,8 +49,7 @@ img {
     padding: 16px;
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     transition: 0.6s ease;
     user-select: none;
-
 }

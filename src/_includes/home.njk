@@ -1,21 +1,24 @@
 ---
 layout: base.njk
 ---
+<nav>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <h1>{{title}}</h1>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</nav>
 <div class="slideshow-container">
-{% for i in range(1,12) %}
 
+{% for images in images %}
     <div class="slide-container">
-        <img src="/assets/img/My Story0{{i}}.jpg">
+        <img src="{{images.slide}}">
         <div class="text-container">
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <div class="slide-number"> {{i}} / 11</div>
+            <div class="slide-number"> {{loop.index}} / {{loop.length}}</div>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
     </div>
 {% endfor %}
-    
-    
-    
+        
 </div>
 
 

@@ -1,5 +1,5 @@
 {
-    "name": "Edwin-Chan",
+    "name": "rick",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -8,13 +8,13 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/BiigFish/edwin.git"
+      "url": "git+https://github.com/BiigFish/rick.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/BiigFish/edwin/issues"
+      "url": "https://github.com/BiigFish/rick/issues"
     },
-    "homepage": "https://github.com/BiigFish/edwin#readme"
+    "homepage": "https://github.com/BiigFish/rick#readme"
   }

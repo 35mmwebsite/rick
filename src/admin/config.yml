@@ -1,0 +1,27 @@
+backend:
+  name: git-gateway
+  repo: BiigFish/rick
+  branch: main # Branch to update (optional; defaults to master)
+
+publish_mode: editorial_workflow
+
+media_folder: "src/assets/slides"
+public_folder: "/assets/slides"
+
+collections:
+  - label: "Pages"
+    name: "pages"
+    editor:
+      preview: false
+    files:
+      - label: "Home Page"
+        name: "home"
+        file: "src/index.md"
+        fields:
+          - { label: "Title", title: "title", widget: "string" }
+          - label: "Pictures"
+            name: "images"
+            widget: "list"
+            create: "true"
+            fields: 
+              - { label: "Slide", name: "slide", widget: "image" }
