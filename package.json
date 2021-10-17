@@ -8,13 +8,13 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/BiigFish/rick.git"
+      "url": "git+https://github.com/35mmwebsite/rick.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/BiigFish/rick/issues"
+      "url": "https://github.com/35mmwebsite/rick/issues"
     },
-    "homepage": "https://github.com/BiigFish/rick#readme"
+    "homepage": "https://github.com/35mmwebsite/rick#readme"
   }
