@@ -18,7 +18,7 @@ collections:
         name: "home"
         file: "src/index.md"
         fields:
-          - { label: "Title", title: "title", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
           - label: "Pictures"
             name: "images"
             widget: "list"
