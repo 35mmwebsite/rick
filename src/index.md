@@ -5,4 +5,5 @@ images:
   - slide: /assets/slides/000005.JPG
   - slide: /assets/slides/000007.JPG
   - slide: /assets/slides/000013.JPG
+  - slide: /assets/slides/11300021.jpg
 ---
